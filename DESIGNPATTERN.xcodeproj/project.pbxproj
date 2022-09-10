@@ -299,9 +299,7 @@
 				4EC5C1E028C33756008E2AEC /* AppDelegate.swift */,
 				4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */,
 				4EC5C1E428C33756008E2AEC /* ViewController.swift */,
-				4EC5C24228C4B09F008E2AEC /* VIPER */,
-				4EC5C24128C4B094008E2AEC /* MVVM */,
-				4EC5C24028C4B078008E2AEC /* MVC */,
+				4EF485D728CC8CE10048660B /* Architectural-Design-Patterns */,
 				4EC5C23D28C4A531008E2AEC /* Models */,
 				4EC5C23A28C34F83008E2AEC /* Utility */,
 				4EC5C1E628C33756008E2AEC /* Main.storyboard */,
@@ -383,6 +381,16 @@
 				4E37C1B628C7DE35006E2BDC /* Router */,
 			);
 			path = VIPER;
+			sourceTree = "<group>";
+		};
+		4EF485D728CC8CE10048660B /* Architectural-Design-Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5C24228C4B09F008E2AEC /* VIPER */,
+				4EC5C24128C4B094008E2AEC /* MVVM */,
+				4EC5C24028C4B078008E2AEC /* MVC */,
+			);
+			path = "Architectural-Design-Patterns";
 			sourceTree = "<group>";
 		};
 		7E2FC943EDC573632CC17D70 /* Frameworks */ = {

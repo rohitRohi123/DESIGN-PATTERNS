@@ -10,8 +10,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        debugPrint("Test commits")
+    
     }
     
     @IBAction func onClickedMVC(_ sender: Any) {
