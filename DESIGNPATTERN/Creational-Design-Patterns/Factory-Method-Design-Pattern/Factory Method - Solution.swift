@@ -25,7 +25,7 @@ extension Transportation {
 
 class RohitMultiTransportation {
     //Factory Method
-    func requestForDelivery(with transportationType: String) {
+   static func requestForDelivery(with transportationType: String) {
         switch transportationType {
             case "truck":
                RoadTransportation().delivery()
