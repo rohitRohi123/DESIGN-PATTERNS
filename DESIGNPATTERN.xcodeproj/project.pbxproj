@@ -65,6 +65,8 @@
 		4EF485E228CE0BCC0048660B /* Abstract Factory Uses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485E128CE0BCC0048660B /* Abstract Factory Uses.swift */; };
 		4EF485E428CE0FFC0048660B /* Abstract Factory Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485E328CE0FFC0048660B /* Abstract Factory Pattern.swift */; };
 		4EF485E628CF17170048660B /* Abstract Factory- Ex 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485E528CF17170048660B /* Abstract Factory- Ex 2.swift */; };
+		4EF485E928CF5CFB0048660B /* Problem-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485E828CF5CFB0048660B /* Problem-2.swift */; };
+		4EF485EB28CF65AC0048660B /* Builder Patterns Use1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485EA28CF65AC0048660B /* Builder Patterns Use1.swift */; };
 		54C31700C91DDC8643BCC569 /* Pods_DESIGNPATTERNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323D7D9958FDB88ACB20058 /* Pods_DESIGNPATTERNTests.framework */; };
 		63003B2EB550ABC227BCCE29 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B63966C670A0902399EDC4 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework */; };
 /* End PBXBuildFile section */
@@ -150,6 +152,8 @@
 		4EF485E128CE0BCC0048660B /* Abstract Factory Uses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Factory Uses.swift"; sourceTree = "<group>"; };
 		4EF485E328CE0FFC0048660B /* Abstract Factory Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Factory Pattern.swift"; sourceTree = "<group>"; };
 		4EF485E528CF17170048660B /* Abstract Factory- Ex 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Factory- Ex 2.swift"; sourceTree = "<group>"; };
+		4EF485E828CF5CFB0048660B /* Problem-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem-2.swift"; sourceTree = "<group>"; };
+		4EF485EA28CF65AC0048660B /* Builder Patterns Use1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Builder Patterns Use1.swift"; sourceTree = "<group>"; };
 		6A63326A66F44E9D2036AF34 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8766C153C73BD7415DE07C9B /* Pods-DESIGNPATTERN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN/Pods-DESIGNPATTERN.release.xcconfig"; sourceTree = "<group>"; };
 		88AC56CC75DC0C8B72718DE8 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -409,6 +413,7 @@
 		4EF485D828CC8D810048660B /* Creational-Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				4EF485E728CF5AD10048660B /* Builder  */,
 				4EF485DB28CC8E140048660B /* Factory-Method-Design-Pattern */,
 				4EF485E028CE0AE90048660B /* Abstract Factory Pattern */,
 			);
@@ -446,6 +451,15 @@
 				4EF485E528CF17170048660B /* Abstract Factory- Ex 2.swift */,
 			);
 			path = "Abstract Factory Pattern";
+			sourceTree = "<group>";
+		};
+		4EF485E728CF5AD10048660B /* Builder  */ = {
+			isa = PBXGroup;
+			children = (
+				4EF485E828CF5CFB0048660B /* Problem-2.swift */,
+				4EF485EA28CF65AC0048660B /* Builder Patterns Use1.swift */,
+			);
+			path = "Builder ";
 			sourceTree = "<group>";
 		};
 		7E2FC943EDC573632CC17D70 /* Frameworks */ = {
@@ -734,6 +748,7 @@
 				4EF485DF28CC9EA70048660B /* Factory Method - Solution.swift in Sources */,
 				4E37C1AF28C7C8CB006E2BDC /* MovieDetailsViewModel.swift in Sources */,
 				4EC5C24928C4F047008E2AEC /* MoviewListCell.swift in Sources */,
+				4EF485EB28CF65AC0048660B /* Builder Patterns Use1.swift in Sources */,
 				4E37C1AD28C7C836006E2BDC /* ModelProtocols.swift in Sources */,
 				4E37C1C028C7E29C006E2BDC /* MovieListVwVIPER.swift in Sources */,
 				4EC5C23C28C34FAD008E2AEC /* NetworkManager.swift in Sources */,
@@ -756,6 +771,7 @@
 				4E37C1B128C7CA47006E2BDC /* UIView+Extension.swift in Sources */,
 				4E42435928C7F10D005A8ACF /* MoviewListPresenter.swift in Sources */,
 				4E37C18C28C6F9AE006E2BDC /* Dynamic.swift in Sources */,
+				4EF485E928CF5CFB0048660B /* Problem-2.swift in Sources */,
 				4E42435128C7EE79005A8ACF /* MoviewListInteractor.swift in Sources */,
 				4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */,
 				4EC5C23F28C4A540008E2AEC /* Movie.swift in Sources */,
