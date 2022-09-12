@@ -7,6 +7,30 @@
 
 import Foundation
 
+/*
+ Client Code
+ var vehicle = FactoryMethodPattern.createVehicle(with: "truck")
+ vehicle.name = "xyx"
+ vehicle.source = "zyx"
+ vehicle.source = "xyz"
+ */
+
+struct FactoryMethodPattern {
+    static func createVehicle(with transportationType: String)-> DeliveryVehicle? {
+        if transportationType.lowercased() == "truck" {
+            return RTruck(isVehicleReady: true, name: "", source: "", destination: "")
+        }
+        
+        if transportationType.lowercased() == "ship" {
+            return Ship(isVehicleReady: true, name: "", source: "", destination: "")
+        }
+        
+        return nil
+    }
+    
+}
+
+
 fileprivate protocol Transportation: AnyObject {
     var availableVehicle: [DeliveryVehicle] {get set}
     func delivery()
@@ -24,7 +48,6 @@ extension Transportation {
 
 
 class RohitMultiTransportation {
-    //Factory Method
    static func requestForDelivery(with transportationType: String) {
         switch transportationType {
             case "truck":

@@ -10,48 +10,30 @@ import Foundation
 
 //Client Code
 /*
-  let factory = RohitAssemblyPVT()
-  factory.getCar(of: "tata")
- 
+  let factory = VehicleAbstractFactory.createFactory(for: "tata")
+  factory.getCar()
  */
 
+struct VehicleAbstractFactory {
+    static func createFactory(for company: String)-> IVehicleFactory? {
+        if company.lowercased() == "tata" {
+            return TataVehicleAssemblyFactory()
+        }
+        
+        if company.lowercased() == "maruti" {
+            return MarutiVehicleAssemblyFactory()
+        }
+        
+        return nil
+    }
+}
 
-protocol AbstractVehicleFactory {
+protocol IVehicleFactory {
     func getCar()-> CarProtocol
     func getBike()-> BikeProtocol
 }
 
-struct RohitAssemblyPVT {
-    func getCar(of company: String)-> CarProtocol? {
-        if company == "tata" {
-            return TataVehicleAssemblyFactory().getCar()
-        }
-        
-        if company == "Maruti" {
-            return MarutiVehicleAssemblyFactory().getCar()
-        }
-        
-        debugPrint("Vehicle is not available")
-        return nil
-    }
-    
-    func getBike(of company: String)-> BikeProtocol? {
-        if company == "Tata" {
-            return TataVehicleAssemblyFactory().getBike()
-        }
-        
-        if company == "Maruti" {
-            return MarutiVehicleAssemblyFactory().getBike()
-        }
-        
-        debugPrint("Vehicle is not available")
-        return nil
-        
-    }
-}
-
-
-struct TataVehicleAssemblyFactory: AbstractVehicleFactory {
+struct TataVehicleAssemblyFactory: IVehicleFactory {
     func getCar() -> CarProtocol {
         return Car(name: "Tata Harrier", brandName: "Tata")
     }
@@ -61,7 +43,7 @@ struct TataVehicleAssemblyFactory: AbstractVehicleFactory {
     }
 }
 
-struct MarutiVehicleAssemblyFactory: AbstractVehicleFactory {
+struct MarutiVehicleAssemblyFactory: IVehicleFactory {
     func getCar() -> CarProtocol {
         return Car(name: "Maruti Car Ciaz", brandName: "Maruti")
     }
@@ -69,8 +51,6 @@ struct MarutiVehicleAssemblyFactory: AbstractVehicleFactory {
     func getBike() -> BikeProtocol {
         return Bike(name: "Suzuki", brandName: "Maruti")
     }
-    
-    
     
 }
 
