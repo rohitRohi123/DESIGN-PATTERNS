@@ -72,6 +72,8 @@
 		4EF485F428CFC70D0048660B /* Problem 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485F328CFC70D0048660B /* Problem 3.swift */; };
 		4EF485F628CFCAF40048660B /* Adapter - Ex1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485F528CFCAF40048660B /* Adapter - Ex1.swift */; };
 		4EF485F828CFCD5C0048660B /* Adapter-Ex2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485F728CFCD5C0048660B /* Adapter-Ex2.swift */; };
+		4EF485FB28D060920048660B /* Problem - 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485FA28D060920048660B /* Problem - 4.swift */; };
+		4EF485FD28D066410048660B /* Bridge - Ex1 .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485FC28D066410048660B /* Bridge - Ex1 .swift */; };
 		54C31700C91DDC8643BCC569 /* Pods_DESIGNPATTERNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323D7D9958FDB88ACB20058 /* Pods_DESIGNPATTERNTests.framework */; };
 		63003B2EB550ABC227BCCE29 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B63966C670A0902399EDC4 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework */; };
 /* End PBXBuildFile section */
@@ -164,6 +166,8 @@
 		4EF485F328CFC70D0048660B /* Problem 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 3.swift"; sourceTree = "<group>"; };
 		4EF485F528CFCAF40048660B /* Adapter - Ex1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adapter - Ex1.swift"; sourceTree = "<group>"; };
 		4EF485F728CFCD5C0048660B /* Adapter-Ex2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adapter-Ex2.swift"; sourceTree = "<group>"; };
+		4EF485FA28D060920048660B /* Problem - 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem - 4.swift"; sourceTree = "<group>"; };
+		4EF485FC28D066410048660B /* Bridge - Ex1 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bridge - Ex1 .swift"; sourceTree = "<group>"; };
 		6A63326A66F44E9D2036AF34 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8766C153C73BD7415DE07C9B /* Pods-DESIGNPATTERN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN/Pods-DESIGNPATTERN.release.xcconfig"; sourceTree = "<group>"; };
 		88AC56CC75DC0C8B72718DE8 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -435,6 +439,7 @@
 		4EF485D928CC8D9B0048660B /* Structural-Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				4EF485F928D060690048660B /* Bridge */,
 				4EF485F228CFC6FD0048660B /* Adapter Pattern */,
 			);
 			path = "Structural-Design-Patterns";
@@ -499,6 +504,15 @@
 				4EF485F728CFCD5C0048660B /* Adapter-Ex2.swift */,
 			);
 			path = "Adapter Pattern";
+			sourceTree = "<group>";
+		};
+		4EF485F928D060690048660B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				4EF485FA28D060920048660B /* Problem - 4.swift */,
+				4EF485FC28D066410048660B /* Bridge - Ex1 .swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		7E2FC943EDC573632CC17D70 /* Frameworks */ = {
@@ -810,8 +824,10 @@
 				4EF485F428CFC70D0048660B /* Problem 3.swift in Sources */,
 				4E2A76BB28C66772006E98B3 /* LayoutManager.swift in Sources */,
 				4E37C1A128C750B1006E2BDC /* Models.swift in Sources */,
+				4EF485FB28D060920048660B /* Problem - 4.swift in Sources */,
 				4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */,
 				4E37C1B128C7CA47006E2BDC /* UIView+Extension.swift in Sources */,
+				4EF485FD28D066410048660B /* Bridge - Ex1 .swift in Sources */,
 				4E42435928C7F10D005A8ACF /* MoviewListPresenter.swift in Sources */,
 				4E37C18C28C6F9AE006E2BDC /* Dynamic.swift in Sources */,
 				4EF485E928CF5CFB0048660B /* Problem-2.swift in Sources */,
