@@ -77,6 +77,7 @@
 		4EF485FF28D06DD60048660B /* Bridge-Ex2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485FE28D06DD60048660B /* Bridge-Ex2.swift */; };
 		4EF4860228D088ED0048660B /* Problem 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860128D088ED0048660B /* Problem 5.swift */; };
 		4EF4860428D08F150048660B /* Composite - Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860328D08F150048660B /* Composite - Pattern.swift */; };
+		4EF4860628D095140048660B /* Composite - Pattern Ex1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860528D095140048660B /* Composite - Pattern Ex1.swift */; };
 		54C31700C91DDC8643BCC569 /* Pods_DESIGNPATTERNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323D7D9958FDB88ACB20058 /* Pods_DESIGNPATTERNTests.framework */; };
 		63003B2EB550ABC227BCCE29 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B63966C670A0902399EDC4 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework */; };
 /* End PBXBuildFile section */
@@ -174,6 +175,7 @@
 		4EF485FE28D06DD60048660B /* Bridge-Ex2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bridge-Ex2.swift"; sourceTree = "<group>"; };
 		4EF4860128D088ED0048660B /* Problem 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 5.swift"; sourceTree = "<group>"; };
 		4EF4860328D08F150048660B /* Composite - Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Composite - Pattern.swift"; sourceTree = "<group>"; };
+		4EF4860528D095140048660B /* Composite - Pattern Ex1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Composite - Pattern Ex1.swift"; sourceTree = "<group>"; };
 		6A63326A66F44E9D2036AF34 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8766C153C73BD7415DE07C9B /* Pods-DESIGNPATTERN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN/Pods-DESIGNPATTERN.release.xcconfig"; sourceTree = "<group>"; };
 		88AC56CC75DC0C8B72718DE8 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -527,6 +529,7 @@
 			isa = PBXGroup;
 			children = (
 				4EF4860128D088ED0048660B /* Problem 5.swift */,
+				4EF4860528D095140048660B /* Composite - Pattern Ex1.swift */,
 				4EF4860328D08F150048660B /* Composite - Pattern.swift */,
 			);
 			path = Composite;
@@ -842,6 +845,7 @@
 				4EF485F428CFC70D0048660B /* Problem 3.swift in Sources */,
 				4E2A76BB28C66772006E98B3 /* LayoutManager.swift in Sources */,
 				4E37C1A128C750B1006E2BDC /* Models.swift in Sources */,
+				4EF4860628D095140048660B /* Composite - Pattern Ex1.swift in Sources */,
 				4EF485FB28D060920048660B /* Problem - 4.swift in Sources */,
 				4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */,
 				4E37C1B128C7CA47006E2BDC /* UIView+Extension.swift in Sources */,
