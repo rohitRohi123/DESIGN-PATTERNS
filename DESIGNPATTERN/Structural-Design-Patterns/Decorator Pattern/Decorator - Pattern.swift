@@ -135,7 +135,7 @@ class SalaryManager {
     }
 
     func load() {
-        return source.read()
+        source.read()
     }
     
     func save() {
