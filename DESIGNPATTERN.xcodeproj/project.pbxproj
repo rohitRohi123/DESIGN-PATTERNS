@@ -80,6 +80,8 @@
 		4EF4860628D095140048660B /* Composite - Pattern Ex1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860528D095140048660B /* Composite - Pattern Ex1.swift */; };
 		4EF4860928D0A8A60048660B /* Decorator - Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860828D0A8A60048660B /* Decorator - Pattern.swift */; };
 		4EF4860C28D0C45E0048660B /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860B28D0C45E0048660B /* Facade.swift */; };
+		4EF4860F28D4050E0048660B /* Problem 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4860E28D4050E0048660B /* Problem 6.swift */; };
+		4EF4861128D418A70048660B /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4861028D418A70048660B /* Flyweight.swift */; };
 		54C31700C91DDC8643BCC569 /* Pods_DESIGNPATTERNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323D7D9958FDB88ACB20058 /* Pods_DESIGNPATTERNTests.framework */; };
 		63003B2EB550ABC227BCCE29 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B63966C670A0902399EDC4 /* Pods_DESIGNPATTERN_DESIGNPATTERNUITests.framework */; };
 /* End PBXBuildFile section */
@@ -180,6 +182,8 @@
 		4EF4860528D095140048660B /* Composite - Pattern Ex1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Composite - Pattern Ex1.swift"; sourceTree = "<group>"; };
 		4EF4860828D0A8A60048660B /* Decorator - Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decorator - Pattern.swift"; sourceTree = "<group>"; };
 		4EF4860B28D0C45E0048660B /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		4EF4860E28D4050E0048660B /* Problem 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 6.swift"; sourceTree = "<group>"; };
+		4EF4861028D418A70048660B /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 		6A63326A66F44E9D2036AF34 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8766C153C73BD7415DE07C9B /* Pods-DESIGNPATTERN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN/Pods-DESIGNPATTERN.release.xcconfig"; sourceTree = "<group>"; };
 		88AC56CC75DC0C8B72718DE8 /* Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; path = "Target Support Files/Pods-DESIGNPATTERN-DESIGNPATTERNUITests/Pods-DESIGNPATTERN-DESIGNPATTERNUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -451,11 +455,12 @@
 		4EF485D928CC8D9B0048660B /* Structural-Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				4EF4860A28D0BEEC0048660B /* Facade */,
-				4EF4860728D09C2D0048660B /* Decorator Pattern */,
-				4EF4860028D088E00048660B /* Composite */,
-				4EF485F928D060690048660B /* Bridge */,
+				4EF4860D28D3AFF60048660B /* Flyweight */,
 				4EF485F228CFC6FD0048660B /* Adapter Pattern */,
+				4EF485F928D060690048660B /* Bridge */,
+				4EF4860028D088E00048660B /* Composite */,
+				4EF4860728D09C2D0048660B /* Decorator Pattern */,
+				4EF4860A28D0BEEC0048660B /* Facade */,
 			);
 			path = "Structural-Design-Patterns";
 			sourceTree = "<group>";
@@ -555,6 +560,15 @@
 				4EF4860B28D0C45E0048660B /* Facade.swift */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		4EF4860D28D3AFF60048660B /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4860E28D4050E0048660B /* Problem 6.swift */,
+				4EF4861028D418A70048660B /* Flyweight.swift */,
+			);
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 		7E2FC943EDC573632CC17D70 /* Frameworks */ = {
@@ -848,9 +862,11 @@
 				4E37C1C028C7E29C006E2BDC /* MovieListVwVIPER.swift in Sources */,
 				4EC5C23C28C34FAD008E2AEC /* NetworkManager.swift in Sources */,
 				4EF485E428CE0FFC0048660B /* Abstract Factory Pattern.swift in Sources */,
+				4EF4860F28D4050E0048660B /* Problem 6.swift in Sources */,
 				4EF485F128CF8FFC0048660B /* Singleton - Pattern.swift in Sources */,
 				4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */,
 				4EF485F828CFCD5C0048660B /* Adapter-Ex2.swift in Sources */,
+				4EF4861128D418A70048660B /* Flyweight.swift in Sources */,
 				4EF4860928D0A8A60048660B /* Decorator - Pattern.swift in Sources */,
 				4EF4860428D08F150048660B /* Composite - Pattern.swift in Sources */,
 				4E37C1A328C753C6006E2BDC /* MoviewListViewModel.swift in Sources */,
