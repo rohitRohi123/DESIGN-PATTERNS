@@ -44,6 +44,8 @@
 		4E42435128C7EE79005A8ACF /* MoviewListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42435028C7EE79005A8ACF /* MoviewListInteractor.swift */; };
 		4E42435328C7EF6B005A8ACF /* MovieListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42435228C7EF6B005A8ACF /* MovieListRouter.swift */; };
 		4E42435928C7F10D005A8ACF /* MoviewListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42435828C7F10D005A8ACF /* MoviewListPresenter.swift */; };
+		4E84F98A28D9CFA200D2BBBF /* Problem 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98928D9CFA200D2BBBF /* Problem 9.swift */; };
+		4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -144,6 +146,8 @@
 		4E42435028C7EE79005A8ACF /* MoviewListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewListInteractor.swift; sourceTree = "<group>"; };
 		4E42435228C7EF6B005A8ACF /* MovieListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRouter.swift; sourceTree = "<group>"; };
 		4E42435828C7F10D005A8ACF /* MoviewListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewListPresenter.swift; sourceTree = "<group>"; };
+		4E84F98928D9CFA200D2BBBF /* Problem 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 9.swift"; sourceTree = "<group>"; };
+		4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfRequest.swift; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -319,6 +323,15 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		4E84F98828D9CF6D00D2BBBF /* Chain-Of-Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				4E84F98928D9CFA200D2BBBF /* Problem 9.swift */,
+				4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */,
+			);
+			path = "Chain-Of-Responsibility";
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +486,7 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4E84F98828D9CF6D00D2BBBF /* Chain-Of-Responsibility */,
 			);
 			path = "Behavioral-Design-Pattern";
 			sourceTree = "<group>";
@@ -899,6 +913,7 @@
 				4E37C19B28C70144006E2BDC /* MovieListVcMVVM.swift in Sources */,
 				4EF485F428CFC70D0048660B /* Problem 3.swift in Sources */,
 				4E2A76BB28C66772006E98B3 /* LayoutManager.swift in Sources */,
+				4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */,
 				4E37C1A128C750B1006E2BDC /* Models.swift in Sources */,
 				4EF4860628D095140048660B /* Composite - Pattern Ex1.swift in Sources */,
 				4EF485FB28D060920048660B /* Problem - 4.swift in Sources */,
@@ -916,6 +931,7 @@
 				4EF485FF28D06DD60048660B /* Bridge-Ex2.swift in Sources */,
 				4EC5C23F28C4A540008E2AEC /* Movie.swift in Sources */,
 				4EC5C24C28C4F089008E2AEC /* Constants.swift in Sources */,
+				4E84F98A28D9CFA200D2BBBF /* Problem 9.swift in Sources */,
 				4E37C1A628C7BA35006E2BDC /* MovieDetailsVcMVVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
