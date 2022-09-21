@@ -46,6 +46,7 @@
 		4E42435928C7F10D005A8ACF /* MoviewListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42435828C7F10D005A8ACF /* MoviewListPresenter.swift */; };
 		4E84F98A28D9CFA200D2BBBF /* Problem 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98928D9CFA200D2BBBF /* Problem 9.swift */; };
 		4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */; };
+		4E84F98F28DAFAA200D2BBBF /* Command Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98E28DAFAA200D2BBBF /* Command Pattern.swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -148,6 +149,7 @@
 		4E42435828C7F10D005A8ACF /* MoviewListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewListPresenter.swift; sourceTree = "<group>"; };
 		4E84F98928D9CFA200D2BBBF /* Problem 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 9.swift"; sourceTree = "<group>"; };
 		4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfRequest.swift; sourceTree = "<group>"; };
+		4E84F98E28DAFAA200D2BBBF /* Command Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command Pattern.swift"; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -332,6 +334,14 @@
 			path = "Chain-Of-Responsibility";
 			sourceTree = "<group>";
 		};
+		4E84F98D28DAFA7B00D2BBBF /* Command Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4E84F98E28DAFAA200D2BBBF /* Command Pattern.swift */,
+			);
+			path = "Command Design Pattern";
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +496,7 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4E84F98D28DAFA7B00D2BBBF /* Command Design Pattern */,
 				4E84F98828D9CF6D00D2BBBF /* Chain-Of-Responsibility */,
 			);
 			path = "Behavioral-Design-Pattern";
@@ -923,6 +934,7 @@
 				4E42435928C7F10D005A8ACF /* MoviewListPresenter.swift in Sources */,
 				4E37C18C28C6F9AE006E2BDC /* Dynamic.swift in Sources */,
 				4EF485E928CF5CFB0048660B /* Problem-2.swift in Sources */,
+				4E84F98F28DAFAA200D2BBBF /* Command Pattern.swift in Sources */,
 				4EF4860C28D0C45E0048660B /* Facade.swift in Sources */,
 				4E42435128C7EE79005A8ACF /* MoviewListInteractor.swift in Sources */,
 				4EF485EE28CF8AFD0048660B /* Prototype-Pattern.swift in Sources */,
