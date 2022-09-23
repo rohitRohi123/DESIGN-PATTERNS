@@ -48,6 +48,8 @@
 		4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */; };
 		4E84F98F28DAFAA200D2BBBF /* Command Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F98E28DAFAA200D2BBBF /* Command Pattern.swift */; };
 		4E84F99328DB3BC600D2BBBF /* Iterator Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99228DB3BC600D2BBBF /* Iterator Pattern.swift */; };
+		4E84F99628DE431600D2BBBF /* Problem 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99528DE431600D2BBBF /* Problem 10.swift */; };
+		4E84F99828DE44FE00D2BBBF /* Mediator Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99728DE44FE00D2BBBF /* Mediator Pattern.swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -152,6 +154,8 @@
 		4E84F98B28D9E1CE00D2BBBF /* ChainOfRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfRequest.swift; sourceTree = "<group>"; };
 		4E84F98E28DAFAA200D2BBBF /* Command Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command Pattern.swift"; sourceTree = "<group>"; };
 		4E84F99228DB3BC600D2BBBF /* Iterator Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Iterator Pattern.swift"; sourceTree = "<group>"; };
+		4E84F99528DE431600D2BBBF /* Problem 10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 10.swift"; sourceTree = "<group>"; };
+		4E84F99728DE44FE00D2BBBF /* Mediator Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mediator Pattern.swift"; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -352,6 +356,15 @@
 			path = Iterator;
 			sourceTree = "<group>";
 		};
+		4E84F99428DE42F700D2BBBF /* Mediator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4E84F99528DE431600D2BBBF /* Problem 10.swift */,
+				4E84F99728DE44FE00D2BBBF /* Mediator Pattern.swift */,
+			);
+			path = "Mediator Pattern";
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -506,6 +519,7 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4E84F99428DE42F700D2BBBF /* Mediator Pattern */,
 				4E84F99128DB3BAF00D2BBBF /* Iterator */,
 				4E84F98D28DAFA7B00D2BBBF /* Command Design Pattern */,
 				4E84F98828D9CF6D00D2BBBF /* Chain-Of-Responsibility */,
@@ -923,6 +937,7 @@
 				4E37C1A328C753C6006E2BDC /* MoviewListViewModel.swift in Sources */,
 				4EF4861428D43CE50048660B /* Problem 7.swift in Sources */,
 				4E42435328C7EF6B005A8ACF /* MovieListRouter.swift in Sources */,
+				4E84F99828DE44FE00D2BBBF /* Mediator Pattern.swift in Sources */,
 				4EF485E628CF17170048660B /* Abstract Factory- Ex 2.swift in Sources */,
 				4EF485DD28CC9A970048660B /* Problem1.swift in Sources */,
 				4E37C1A928C7BAA6006E2BDC /* MovieDetailsVw.swift in Sources */,
@@ -938,6 +953,7 @@
 				4E2A76BB28C66772006E98B3 /* LayoutManager.swift in Sources */,
 				4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */,
 				4E37C1A128C750B1006E2BDC /* Models.swift in Sources */,
+				4E84F99628DE431600D2BBBF /* Problem 10.swift in Sources */,
 				4EF4860628D095140048660B /* Composite - Pattern Ex1.swift in Sources */,
 				4EF485FB28D060920048660B /* Problem - 4.swift in Sources */,
 				4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */,
