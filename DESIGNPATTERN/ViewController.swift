@@ -12,7 +12,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        
     }
     
     @IBAction func onClickedMVC(_ sender: Any) {
