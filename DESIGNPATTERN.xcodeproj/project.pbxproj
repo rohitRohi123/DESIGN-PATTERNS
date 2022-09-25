@@ -57,6 +57,8 @@
 		4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */; };
 		4EADFDCC28E0194800470643 /* Problem 13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDCB28E0194800470643 /* Problem 13.swift */; };
 		4EADFDCE28E05F0B00470643 /* Strategy .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDCD28E05F0B00470643 /* Strategy .swift */; };
+		4EADFDD128E08C9400470643 /* Problem 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDD028E08C9400470643 /* Problem 14.swift */; };
+		4EADFDD328E08FE900470643 /* Template Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDD228E08FE900470643 /* Template Pattern.swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -170,6 +172,8 @@
 		4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern Case 2.swift"; sourceTree = "<group>"; };
 		4EADFDCB28E0194800470643 /* Problem 13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 13.swift"; sourceTree = "<group>"; };
 		4EADFDCD28E05F0B00470643 /* Strategy .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strategy .swift"; sourceTree = "<group>"; };
+		4EADFDD028E08C9400470643 /* Problem 14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 14.swift"; sourceTree = "<group>"; };
+		4EADFDD228E08FE900470643 /* Template Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Template Pattern.swift"; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -407,6 +411,15 @@
 			path = "Strategy Pattern";
 			sourceTree = "<group>";
 		};
+		4EADFDCF28E08AEB00470643 /* Template Method Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4EADFDD028E08C9400470643 /* Problem 14.swift */,
+				4EADFDD228E08FE900470643 /* Template Pattern.swift */,
+			);
+			path = "Template Method Pattern";
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +574,7 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4EADFDCF28E08AEB00470643 /* Template Method Pattern */,
 				4EADFDCA28E0192C00470643 /* Strategy Pattern */,
 				4E84F99E28DF70C400D2BBBF /* State Pattern */,
 				4E84F99928DF109100D2BBBF /* Memento Pattern */,
@@ -962,6 +976,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EADFDD128E08C9400470643 /* Problem 14.swift in Sources */,
 				4E37C1B928C7E05E006E2BDC /* MoviewListVcVIPER.swift in Sources */,
 				4EF485DF28CC9EA70048660B /* Factory Method - Solution.swift in Sources */,
 				4E84F99B28DF2E2E00D2BBBF /* Problem 11.swift in Sources */,
@@ -996,6 +1011,7 @@
 				4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */,
 				4E2A76B528C658F4006E98B3 /* MoviewDetailsVC.swift in Sources */,
 				4EF4861628D4E8170048660B /* Proxy pattern .swift in Sources */,
+				4EADFDD328E08FE900470643 /* Template Pattern.swift in Sources */,
 				4EF485E228CE0BCC0048660B /* Abstract Factory Uses.swift in Sources */,
 				4EF485F628CFCAF40048660B /* Adapter - Ex1.swift in Sources */,
 				4EC5C24528C4EF18008E2AEC /* MoviewListVc_MVC.swift in Sources */,
