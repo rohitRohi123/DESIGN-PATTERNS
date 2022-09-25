@@ -52,6 +52,9 @@
 		4E84F99828DE44FE00D2BBBF /* Mediator Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99728DE44FE00D2BBBF /* Mediator Pattern.swift */; };
 		4E84F99B28DF2E2E00D2BBBF /* Problem 11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99A28DF2E2E00D2BBBF /* Problem 11.swift */; };
 		4E84F99D28DF388D00D2BBBF /* Memento Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99C28DF388D00D2BBBF /* Memento Pattern.swift */; };
+		4E84F9A028DF70D000D2BBBF /* Problem 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99F28DF70D000D2BBBF /* Problem 12.swift */; };
+		4E84F9A228DF745C00D2BBBF /* State Pattern - Case 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */; };
+		4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -160,6 +163,9 @@
 		4E84F99728DE44FE00D2BBBF /* Mediator Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mediator Pattern.swift"; sourceTree = "<group>"; };
 		4E84F99A28DF2E2E00D2BBBF /* Problem 11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 11.swift"; sourceTree = "<group>"; };
 		4E84F99C28DF388D00D2BBBF /* Memento Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memento Pattern.swift"; sourceTree = "<group>"; };
+		4E84F99F28DF70D000D2BBBF /* Problem 12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 12.swift"; sourceTree = "<group>"; };
+		4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern - Case 1.swift"; sourceTree = "<group>"; };
+		4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern Case 2.swift"; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -378,6 +384,16 @@
 			path = "Memento Pattern";
 			sourceTree = "<group>";
 		};
+		4E84F99E28DF70C400D2BBBF /* State Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4E84F99F28DF70D000D2BBBF /* Problem 12.swift */,
+				4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */,
+				4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */,
+			);
+			path = "State Pattern";
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -532,6 +548,7 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4E84F99E28DF70C400D2BBBF /* State Pattern */,
 				4E84F99928DF109100D2BBBF /* Memento Pattern */,
 				4E84F99428DE42F700D2BBBF /* Mediator Pattern */,
 				4E84F99128DB3BAF00D2BBBF /* Iterator */,
@@ -951,6 +968,7 @@
 				4EF4860428D08F150048660B /* Composite - Pattern.swift in Sources */,
 				4E37C1A328C753C6006E2BDC /* MoviewListViewModel.swift in Sources */,
 				4EF4861428D43CE50048660B /* Problem 7.swift in Sources */,
+				4E84F9A228DF745C00D2BBBF /* State Pattern - Case 1.swift in Sources */,
 				4E42435328C7EF6B005A8ACF /* MovieListRouter.swift in Sources */,
 				4E84F99D28DF388D00D2BBBF /* Memento Pattern.swift in Sources */,
 				4E84F99828DE44FE00D2BBBF /* Mediator Pattern.swift in Sources */,
@@ -959,6 +977,7 @@
 				4E37C1A928C7BAA6006E2BDC /* MovieDetailsVw.swift in Sources */,
 				4E37C19228C6FC7F006E2BDC /* MoviewListViewMVVM.swift in Sources */,
 				4E37C19728C6FDD2006E2BDC /* MoviewListCellMVVM.swift in Sources */,
+				4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */,
 				4E2A76B528C658F4006E98B3 /* MoviewDetailsVC.swift in Sources */,
 				4EF4861628D4E8170048660B /* Proxy pattern .swift in Sources */,
 				4EF485E228CE0BCC0048660B /* Abstract Factory Uses.swift in Sources */,
@@ -969,6 +988,7 @@
 				4E2A76BB28C66772006E98B3 /* LayoutManager.swift in Sources */,
 				4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */,
 				4E37C1A128C750B1006E2BDC /* Models.swift in Sources */,
+				4E84F9A028DF70D000D2BBBF /* Problem 12.swift in Sources */,
 				4E84F99628DE431600D2BBBF /* Problem 10.swift in Sources */,
 				4EF4860628D095140048660B /* Composite - Pattern Ex1.swift in Sources */,
 				4EF485FB28D060920048660B /* Problem - 4.swift in Sources */,

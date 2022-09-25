@@ -11,7 +11,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        let document = SCase1Document()
+        document.setState(with: DraftState(with: document))
+        document.publishDocument()
     }
     
     @IBAction func onClickedMVC(_ sender: Any) {
