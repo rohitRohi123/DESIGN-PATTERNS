@@ -55,6 +55,8 @@
 		4E84F9A028DF70D000D2BBBF /* Problem 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99F28DF70D000D2BBBF /* Problem 12.swift */; };
 		4E84F9A228DF745C00D2BBBF /* State Pattern - Case 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */; };
 		4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */; };
+		4EADFDCC28E0194800470643 /* Problem 13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDCB28E0194800470643 /* Problem 13.swift */; };
+		4EADFDCE28E05F0B00470643 /* Strategy .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDCD28E05F0B00470643 /* Strategy .swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -166,6 +168,8 @@
 		4E84F99F28DF70D000D2BBBF /* Problem 12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 12.swift"; sourceTree = "<group>"; };
 		4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern - Case 1.swift"; sourceTree = "<group>"; };
 		4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern Case 2.swift"; sourceTree = "<group>"; };
+		4EADFDCB28E0194800470643 /* Problem 13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 13.swift"; sourceTree = "<group>"; };
+		4EADFDCD28E05F0B00470643 /* Strategy .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strategy .swift"; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -394,6 +398,15 @@
 			path = "State Pattern";
 			sourceTree = "<group>";
 		};
+		4EADFDCA28E0192C00470643 /* Strategy Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4EADFDCB28E0194800470643 /* Problem 13.swift */,
+				4EADFDCD28E05F0B00470643 /* Strategy .swift */,
+			);
+			path = "Strategy Pattern";
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -548,6 +561,7 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4EADFDCA28E0192C00470643 /* Strategy Pattern */,
 				4E84F99E28DF70C400D2BBBF /* State Pattern */,
 				4E84F99928DF109100D2BBBF /* Memento Pattern */,
 				4E84F99428DE42F700D2BBBF /* Mediator Pattern */,
@@ -956,12 +970,14 @@
 				4EF485EB28CF65AC0048660B /* Builder Patterns Use1.swift in Sources */,
 				4E37C1AD28C7C836006E2BDC /* ModelProtocols.swift in Sources */,
 				4E37C1C028C7E29C006E2BDC /* MovieListVwVIPER.swift in Sources */,
+				4EADFDCC28E0194800470643 /* Problem 13.swift in Sources */,
 				4EC5C23C28C34FAD008E2AEC /* NetworkManager.swift in Sources */,
 				4EF485E428CE0FFC0048660B /* Abstract Factory Pattern.swift in Sources */,
 				4E84F99328DB3BC600D2BBBF /* Iterator Pattern.swift in Sources */,
 				4EF4860F28D4050E0048660B /* Problem 6.swift in Sources */,
 				4EF485F128CF8FFC0048660B /* Singleton - Pattern.swift in Sources */,
 				4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */,
+				4EADFDCE28E05F0B00470643 /* Strategy .swift in Sources */,
 				4EF485F828CFCD5C0048660B /* Adapter-Ex2.swift in Sources */,
 				4EF4861128D418A70048660B /* Flyweight.swift in Sources */,
 				4EF4860928D0A8A60048660B /* Decorator - Pattern.swift in Sources */,
