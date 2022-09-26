@@ -61,6 +61,14 @@
 		4EADFDD328E08FE900470643 /* Template Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDD228E08FE900470643 /* Template Pattern.swift */; };
 		4EADFDD628E0B3AC00470643 /* Problem 15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDD528E0B3AC00470643 /* Problem 15.swift */; };
 		4EADFDD828E0C65600470643 /* Visitor Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDD728E0C65600470643 /* Visitor Pattern.swift */; };
+		4EADFDE128E2034000470643 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDDB28E2034000470643 /* LoginInteractor.swift */; };
+		4EADFDE228E2034000470643 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDDC28E2034000470643 /* LoginModels.swift */; };
+		4EADFDE328E2034000470643 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDDD28E2034000470643 /* LoginViewController.swift */; };
+		4EADFDE428E2034000470643 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDDE28E2034000470643 /* LoginPresenter.swift */; };
+		4EADFDE528E2034000470643 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDDF28E2034000470643 /* LoginRouter.swift */; };
+		4EADFDE628E2034000470643 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EADFDE028E2034000470643 /* LoginViewController.storyboard */; };
+		4EADFDEA28E2038800470643 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDE828E2038800470643 /* Result.swift */; };
+		4EADFDEB28E2038800470643 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDE928E2038800470643 /* User.swift */; };
 		4EC5C1E128C33756008E2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E028C33756008E2AEC /* AppDelegate.swift */; };
 		4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */; };
 		4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C1E428C33756008E2AEC /* ViewController.swift */; };
@@ -178,6 +186,14 @@
 		4EADFDD228E08FE900470643 /* Template Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Template Pattern.swift"; sourceTree = "<group>"; };
 		4EADFDD528E0B3AC00470643 /* Problem 15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 15.swift"; sourceTree = "<group>"; };
 		4EADFDD728E0C65600470643 /* Visitor Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Visitor Pattern.swift"; sourceTree = "<group>"; };
+		4EADFDDB28E2034000470643 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		4EADFDDC28E2034000470643 /* LoginModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		4EADFDDD28E2034000470643 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4EADFDDE28E2034000470643 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		4EADFDDF28E2034000470643 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		4EADFDE028E2034000470643 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		4EADFDE828E2038800470643 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4EADFDE928E2038800470643 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4EC5C1DD28C33756008E2AEC /* DESIGNPATTERN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESIGNPATTERN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5C1E028C33756008E2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -433,6 +449,37 @@
 			path = "Visitor Pattern";
 			sourceTree = "<group>";
 		};
+		4EADFDD928E2032300470643 /* Clean Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				4EADFDE728E2038800470643 /* Model */,
+				4EADFDDA28E2034000470643 /* Login */,
+			);
+			path = "Clean Architecture";
+			sourceTree = "<group>";
+		};
+		4EADFDDA28E2034000470643 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4EADFDDB28E2034000470643 /* LoginInteractor.swift */,
+				4EADFDDC28E2034000470643 /* LoginModels.swift */,
+				4EADFDDD28E2034000470643 /* LoginViewController.swift */,
+				4EADFDDE28E2034000470643 /* LoginPresenter.swift */,
+				4EADFDDF28E2034000470643 /* LoginRouter.swift */,
+				4EADFDE028E2034000470643 /* LoginViewController.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4EADFDE728E2038800470643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EADFDE828E2038800470643 /* Result.swift */,
+				4EADFDE928E2038800470643 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4EC5C1D428C33756008E2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -551,6 +598,7 @@
 		4EF485D728CC8CE10048660B /* Architectural-Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				4EADFDD928E2032300470643 /* Clean Architecture */,
 				4EC5C24228C4B09F008E2AEC /* VIPER */,
 				4EC5C24128C4B094008E2AEC /* MVVM */,
 				4EC5C24028C4B078008E2AEC /* MVC */,
@@ -861,6 +909,7 @@
 				4E2A76B628C658F4006E98B3 /* MoviewDetailsVC.xib in Resources */,
 				4EC5C24628C4EF18008E2AEC /* MoviewListVc_MVC.xib in Resources */,
 				4EC5C1E828C33756008E2AEC /* Main.storyboard in Resources */,
+				4EADFDE628E2034000470643 /* LoginViewController.storyboard in Resources */,
 				4E37C1BA28C7E05E006E2BDC /* MoviewListVcVIPER.xib in Resources */,
 				4EC5C24A28C4F047008E2AEC /* MoviewListCell.xib in Resources */,
 			);
@@ -990,6 +1039,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EADFDE128E2034000470643 /* LoginInteractor.swift in Sources */,
 				4EADFDD128E08C9400470643 /* Problem 14.swift in Sources */,
 				4E37C1B928C7E05E006E2BDC /* MoviewListVcVIPER.swift in Sources */,
 				4EF485DF28CC9EA70048660B /* Factory Method - Solution.swift in Sources */,
@@ -999,14 +1049,17 @@
 				4EF485EB28CF65AC0048660B /* Builder Patterns Use1.swift in Sources */,
 				4E37C1AD28C7C836006E2BDC /* ModelProtocols.swift in Sources */,
 				4E37C1C028C7E29C006E2BDC /* MovieListVwVIPER.swift in Sources */,
+				4EADFDEA28E2038800470643 /* Result.swift in Sources */,
 				4EADFDCC28E0194800470643 /* Problem 13.swift in Sources */,
 				4EC5C23C28C34FAD008E2AEC /* NetworkManager.swift in Sources */,
 				4EADFDD628E0B3AC00470643 /* Problem 15.swift in Sources */,
 				4EF485E428CE0FFC0048660B /* Abstract Factory Pattern.swift in Sources */,
+				4EADFDE528E2034000470643 /* LoginRouter.swift in Sources */,
 				4E84F99328DB3BC600D2BBBF /* Iterator Pattern.swift in Sources */,
 				4EF4860F28D4050E0048660B /* Problem 6.swift in Sources */,
 				4EF485F128CF8FFC0048660B /* Singleton - Pattern.swift in Sources */,
 				4EC5C1E528C33756008E2AEC /* ViewController.swift in Sources */,
+				4EADFDE428E2034000470643 /* LoginPresenter.swift in Sources */,
 				4EADFDCE28E05F0B00470643 /* Strategy .swift in Sources */,
 				4EF485F828CFCD5C0048660B /* Adapter-Ex2.swift in Sources */,
 				4EF4861128D418A70048660B /* Flyweight.swift in Sources */,
@@ -1017,11 +1070,13 @@
 				4E84F9A228DF745C00D2BBBF /* State Pattern - Case 1.swift in Sources */,
 				4E42435328C7EF6B005A8ACF /* MovieListRouter.swift in Sources */,
 				4E84F99D28DF388D00D2BBBF /* Memento Pattern.swift in Sources */,
+				4EADFDE328E2034000470643 /* LoginViewController.swift in Sources */,
 				4E84F99828DE44FE00D2BBBF /* Mediator Pattern.swift in Sources */,
 				4EF485E628CF17170048660B /* Abstract Factory- Ex 2.swift in Sources */,
 				4EF485DD28CC9A970048660B /* Problem1.swift in Sources */,
 				4E37C1A928C7BAA6006E2BDC /* MovieDetailsVw.swift in Sources */,
 				4E37C19228C6FC7F006E2BDC /* MoviewListViewMVVM.swift in Sources */,
+				4EADFDE228E2034000470643 /* LoginModels.swift in Sources */,
 				4E37C19728C6FDD2006E2BDC /* MoviewListCellMVVM.swift in Sources */,
 				4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */,
 				4E2A76B528C658F4006E98B3 /* MoviewDetailsVC.swift in Sources */,
@@ -1044,6 +1099,7 @@
 				4E37C1B128C7CA47006E2BDC /* UIView+Extension.swift in Sources */,
 				4EF485FD28D066410048660B /* Bridge - Ex1 .swift in Sources */,
 				4E42435928C7F10D005A8ACF /* MoviewListPresenter.swift in Sources */,
+				4EADFDEB28E2038800470643 /* User.swift in Sources */,
 				4E37C18C28C6F9AE006E2BDC /* Dynamic.swift in Sources */,
 				4EF485E928CF5CFB0048660B /* Problem-2.swift in Sources */,
 				4E84F98F28DAFAA200D2BBBF /* Command Pattern.swift in Sources */,
