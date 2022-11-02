@@ -9,15 +9,39 @@ import XCTest
 @testable import DESIGNPATTERN
 
 class DESIGNPATTERNTests: XCTestCase {
-
+    var sut: MoviewListVc_MVC? = MoviewListVc_MVC()
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        sut = MoviewListVc_MVC()
+        try super.setUpWithError()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+       sut = nil
+       try tearDownWithError()
     }
 
+    func testMovieApi() {
+        let url = "http://localhost:8080/api/movies"
+        let promise = expectation(description: "Get Movies")
+        var success: Bool = false
+        
+        sut?.getMovies(with: url, completion: { response in
+            switch response {
+               case .success(_):
+                   success = true
+                
+               case .failure(let error):
+                   print("Error = \(error)")
+            }
+            
+        })
+        
+        wait(for: [promise], timeout: 5)
+        
+        XCTAssertTrue(success)
+    }
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

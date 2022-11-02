@@ -24,6 +24,6 @@ class RagistrationForm {
     }
     /*
      As you can see in didClickedSubmit func, on submit button we are validating form
-     So, if in future we want to strong phone validation then we have to modify this class.
+     So, if in future we want to strong Password validation then we have to modify this class.
      */
 }

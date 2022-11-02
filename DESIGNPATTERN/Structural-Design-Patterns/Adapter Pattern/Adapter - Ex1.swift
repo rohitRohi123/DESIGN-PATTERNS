@@ -8,7 +8,7 @@
 import Foundation
 
 ///Target defines the domain-specific interface used by the client code.
-class SIphoneHeadPhone {  //Target
+class IphoneHeadPhone_Sol {  //Target
     func wiredHeadPhone()-> String {
         return "iphone wired headphone"
     }
@@ -18,7 +18,7 @@ class SIphoneHeadPhone {  //Target
  /// The Adaptee contains some useful behavior, but its interface is incompatible
  /// with the existing client code. The Adaptee needs some adaptation before the
  /// client code can use it.
-class SIphone13 { // Adaptee
+class Iphone13_Sol { // Adaptee
     func universalCTypePort()-> String {
         return "C-Type universal lighting port"
     }
@@ -27,9 +27,9 @@ class SIphone13 { // Adaptee
 
 /// The Adapter makes the Adaptee's interface compatible with the Target's
 /// interface
-class Adapter: SIphoneHeadPhone {
-    let adaptee: SIphone13
-    init(with adaptee: SIphone13) {
+class Adapter: IphoneHeadPhone_Sol {
+    let adaptee: Iphone13_Sol
+    init(with adaptee: Iphone13_Sol) {
         self.adaptee = adaptee
     }
     
@@ -41,7 +41,7 @@ class Adapter: SIphoneHeadPhone {
 /// The client code supports all classes that follow the Target interface.
 class Client {
     // ...
-    static func ListenSong(target headPhone: SIphoneHeadPhone) {
+    static func ListenSong(target headPhone: IphoneHeadPhone_Sol) {
         debugPrint("Play song = \(headPhone.wiredHeadPhone())")
     }
     // ...
@@ -52,9 +52,9 @@ class AdapterConceptual {
 
     func testAdapterConceptual() {
         print("Client: I can work just fine with the Target objects:")
-        Client.ListenSong(target: SIphoneHeadPhone())
+        Client.ListenSong(target: IphoneHeadPhone_Sol())
 
-        let adaptee = SIphone13()
+        let adaptee = Iphone13_Sol()
         print("Client: The Adaptee class has a weird interface. See, I don't understand it:")
         print("Adaptee: " + adaptee.universalCTypePort())
 

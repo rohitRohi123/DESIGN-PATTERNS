@@ -54,7 +54,8 @@ extension MoviewListVc_MVC {
         
     }
   
-    fileprivate func getMovies(with url: String, completion: @escaping (Result<Movies, NetworkManager.APIError>)->Void) {
+    public func getMovies(with url: String, completion: @escaping (Result<Movies, NetworkManager.APIError>)->Void) {
+       // moviewlistTableView.reloadData()
         NetworkManager().getRequest(with: url, completionHandler: completion)
         
     }

@@ -12,7 +12,7 @@ protocol ATMInterface {
     func withdraw(amount: Int)
 }
 
-fileprivate class SATMMachine: ATMInterface {
+fileprivate class ATMMachine_Sol: ATMInterface {
     private var balance: Int = 0
     
     func showBalance() {
@@ -33,7 +33,7 @@ open class ATMMachineProxy: ATMInterface {
     private var atmMachine: ATMInterface?
     
     init() {
-        atmMachine = SATMMachine()
+        atmMachine = ATMMachine_Sol()
     }
     
     convenience init(atmMachine: ATMInterface) {

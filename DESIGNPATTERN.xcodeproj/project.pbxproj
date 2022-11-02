@@ -635,15 +635,15 @@
 		4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				4EADFDD428E0B39C00470643 /* Visitor Pattern */,
-				4EADFDCF28E08AEB00470643 /* Template Method Pattern */,
-				4EADFDCA28E0192C00470643 /* Strategy Pattern */,
-				4E84F99E28DF70C400D2BBBF /* State Pattern */,
-				4E84F99928DF109100D2BBBF /* Memento Pattern */,
-				4E84F99428DE42F700D2BBBF /* Mediator Pattern */,
-				4E84F99128DB3BAF00D2BBBF /* Iterator */,
-				4E84F98D28DAFA7B00D2BBBF /* Command Design Pattern */,
 				4E84F98828D9CF6D00D2BBBF /* Chain-Of-Responsibility */,
+				4E84F98D28DAFA7B00D2BBBF /* Command Design Pattern */,
+				4E84F99128DB3BAF00D2BBBF /* Iterator */,
+				4E84F99428DE42F700D2BBBF /* Mediator Pattern */,
+				4E84F99928DF109100D2BBBF /* Memento Pattern */,
+				4E84F99E28DF70C400D2BBBF /* State Pattern */,
+				4EADFDCA28E0192C00470643 /* Strategy Pattern */,
+				4EADFDCF28E08AEB00470643 /* Template Method Pattern */,
+				4EADFDD428E0B39C00470643 /* Visitor Pattern */,
 			);
 			path = "Behavioral-Design-Pattern";
 			sourceTree = "<group>";
