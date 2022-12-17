@@ -55,6 +55,8 @@
 		4E84F9A028DF70D000D2BBBF /* Problem 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F99F28DF70D000D2BBBF /* Problem 12.swift */; };
 		4E84F9A228DF745C00D2BBBF /* State Pattern - Case 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */; };
 		4E84F9A428DF747C00D2BBBF /* State Pattern Case 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */; };
+		4E9FD37A2924F27F004A812B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9FD3792924F27F004A812B /* HomeViewController.swift */; };
+		4E9FD37E2924F2E7004A812B /* APPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9FD37D2924F2E7004A812B /* APPLoginViewController.swift */; };
 		4EADFDCC28E0194800470643 /* Problem 13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDCB28E0194800470643 /* Problem 13.swift */; };
 		4EADFDCE28E05F0B00470643 /* Strategy .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDCD28E05F0B00470643 /* Strategy .swift */; };
 		4EADFDD128E08C9400470643 /* Problem 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADFDD028E08C9400470643 /* Problem 14.swift */; };
@@ -85,6 +87,10 @@
 		4EC5C24928C4F047008E2AEC /* MoviewListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C24728C4F047008E2AEC /* MoviewListCell.swift */; };
 		4EC5C24A28C4F047008E2AEC /* MoviewListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5C24828C4F047008E2AEC /* MoviewListCell.xib */; };
 		4EC5C24C28C4F089008E2AEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C24B28C4F089008E2AEC /* Constants.swift */; };
+		4EEB218C294DCE7A00F35FC5 /* LiskovSubstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB2189294DCE7A00F35FC5 /* LiskovSubstitution.swift */; };
+		4EEB218D294DCE7A00F35FC5 /* SOLIDViolation-Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB218A294DCE7A00F35FC5 /* SOLIDViolation-Impact.swift */; };
+		4EEB2191294DD6F300F35FC5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB2190294DD6F300F35FC5 /* Coordinator.swift */; };
+		4EEB2193294DDB4100F35FC5 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB2192294DDB4100F35FC5 /* Storyboarded.swift */; };
 		4EF485DD28CC9A970048660B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485DC28CC9A970048660B /* Problem1.swift */; };
 		4EF485DF28CC9EA70048660B /* Factory Method - Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485DE28CC9EA70048660B /* Factory Method - Solution.swift */; };
 		4EF485E228CE0BCC0048660B /* Abstract Factory Uses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF485E128CE0BCC0048660B /* Abstract Factory Uses.swift */; };
@@ -180,6 +186,8 @@
 		4E84F99F28DF70D000D2BBBF /* Problem 12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 12.swift"; sourceTree = "<group>"; };
 		4E84F9A128DF745C00D2BBBF /* State Pattern - Case 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern - Case 1.swift"; sourceTree = "<group>"; };
 		4E84F9A328DF747C00D2BBBF /* State Pattern Case 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State Pattern Case 2.swift"; sourceTree = "<group>"; };
+		4E9FD3792924F27F004A812B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4E9FD37D2924F2E7004A812B /* APPLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLoginViewController.swift; sourceTree = "<group>"; };
 		4EADFDCB28E0194800470643 /* Problem 13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 13.swift"; sourceTree = "<group>"; };
 		4EADFDCD28E05F0B00470643 /* Strategy .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strategy .swift"; sourceTree = "<group>"; };
 		4EADFDD028E08C9400470643 /* Problem 14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 14.swift"; sourceTree = "<group>"; };
@@ -214,6 +222,10 @@
 		4EC5C24728C4F047008E2AEC /* MoviewListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewListCell.swift; sourceTree = "<group>"; };
 		4EC5C24828C4F047008E2AEC /* MoviewListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviewListCell.xib; sourceTree = "<group>"; };
 		4EC5C24B28C4F089008E2AEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EEB2189294DCE7A00F35FC5 /* LiskovSubstitution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiskovSubstitution.swift; sourceTree = "<group>"; };
+		4EEB218A294DCE7A00F35FC5 /* SOLIDViolation-Impact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SOLIDViolation-Impact.swift"; sourceTree = "<group>"; };
+		4EEB2190294DD6F300F35FC5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4EEB2192294DDB4100F35FC5 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		4EF485DC28CC9A970048660B /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		4EF485DE28CC9EA70048660B /* Factory Method - Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Factory Method - Solution.swift"; sourceTree = "<group>"; };
 		4EF485E128CE0BCC0048660B /* Abstract Factory Uses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Factory Uses.swift"; sourceTree = "<group>"; };
@@ -422,6 +434,16 @@
 			path = "State Pattern";
 			sourceTree = "<group>";
 		};
+		4E9FD3782924CE00004A812B /* violation of SOLID Principles */ = {
+			isa = PBXGroup;
+			children = (
+				4E9FD37D2924F2E7004A812B /* APPLoginViewController.swift */,
+				4EEB2189294DCE7A00F35FC5 /* LiskovSubstitution.swift */,
+				4EEB218A294DCE7A00F35FC5 /* SOLIDViolation-Impact.swift */,
+			);
+			path = "violation of SOLID Principles";
+			sourceTree = "<group>";
+		};
 		4EADFDCA28E0192C00470643 /* Strategy Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,6 +530,8 @@
 				4EC5C1E028C33756008E2AEC /* AppDelegate.swift */,
 				4EC5C1E228C33756008E2AEC /* SceneDelegate.swift */,
 				4EC5C1E428C33756008E2AEC /* ViewController.swift */,
+				4E9FD3792924F27F004A812B /* HomeViewController.swift */,
+				4E9FD3782924CE00004A812B /* violation of SOLID Principles */,
 				4EF485D828CC8D810048660B /* Creational-Design-Patterns */,
 				4EF485D928CC8D9B0048660B /* Structural-Design-Patterns */,
 				4EF485DA28CC8DBF0048660B /* Behavioral-Design-Pattern */,
@@ -595,9 +619,19 @@
 			path = VIPER;
 			sourceTree = "<group>";
 		};
+		4EEB218F294DD11600F35FC5 /* CoordinatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				4EEB2190294DD6F300F35FC5 /* Coordinator.swift */,
+				4EEB2192294DDB4100F35FC5 /* Storyboarded.swift */,
+			);
+			path = CoordinatePattern;
+			sourceTree = "<group>";
+		};
 		4EF485D728CC8CE10048660B /* Architectural-Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				4EEB218F294DD11600F35FC5 /* CoordinatePattern */,
 				4EADFDD928E2032300470643 /* Clean Architecture */,
 				4EC5C24228C4B09F008E2AEC /* VIPER */,
 				4EC5C24128C4B094008E2AEC /* MVVM */,
@@ -609,11 +643,11 @@
 		4EF485D828CC8D810048660B /* Creational-Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				4EF485EF28CF8FE80048660B /* Singleton Pattern */,
-				4EF485EC28CF8AE40048660B /* Prototype */,
 				4EF485DB28CC8E140048660B /* Factory-Method-Design-Pattern */,
 				4EF485E028CE0AE90048660B /* Abstract Factory Pattern */,
 				4EF485E728CF5AD10048660B /* Builder  */,
+				4EF485EC28CF8AE40048660B /* Prototype */,
+				4EF485EF28CF8FE80048660B /* Singleton Pattern */,
 			);
 			path = "Creational-Design-Patterns";
 			sourceTree = "<group>";
@@ -1086,9 +1120,11 @@
 				4EF485E228CE0BCC0048660B /* Abstract Factory Uses.swift in Sources */,
 				4EF485F628CFCAF40048660B /* Adapter - Ex1.swift in Sources */,
 				4EC5C24528C4EF18008E2AEC /* MoviewListVc_MVC.swift in Sources */,
+				4EEB2193294DDB4100F35FC5 /* Storyboarded.swift in Sources */,
 				4E37C19B28C70144006E2BDC /* MovieListVcMVVM.swift in Sources */,
 				4EF485F428CFC70D0048660B /* Problem 3.swift in Sources */,
 				4E2A76BB28C66772006E98B3 /* LayoutManager.swift in Sources */,
+				4E9FD37A2924F27F004A812B /* HomeViewController.swift in Sources */,
 				4E84F98C28D9E1CE00D2BBBF /* ChainOfRequest.swift in Sources */,
 				4E37C1A128C750B1006E2BDC /* Models.swift in Sources */,
 				4E84F9A028DF70D000D2BBBF /* Problem 12.swift in Sources */,
@@ -1106,11 +1142,15 @@
 				4EF4860C28D0C45E0048660B /* Facade.swift in Sources */,
 				4E42435128C7EE79005A8ACF /* MoviewListInteractor.swift in Sources */,
 				4EF485EE28CF8AFD0048660B /* Prototype-Pattern.swift in Sources */,
+				4E9FD37E2924F2E7004A812B /* APPLoginViewController.swift in Sources */,
+				4EEB218C294DCE7A00F35FC5 /* LiskovSubstitution.swift in Sources */,
 				4EF4860228D088ED0048660B /* Problem 5.swift in Sources */,
 				4EC5C1E328C33756008E2AEC /* SceneDelegate.swift in Sources */,
 				4EF485FF28D06DD60048660B /* Bridge-Ex2.swift in Sources */,
 				4EC5C23F28C4A540008E2AEC /* Movie.swift in Sources */,
+				4EEB2191294DD6F300F35FC5 /* Coordinator.swift in Sources */,
 				4EC5C24C28C4F089008E2AEC /* Constants.swift in Sources */,
+				4EEB218D294DCE7A00F35FC5 /* SOLIDViolation-Impact.swift in Sources */,
 				4E84F98A28D9CFA200D2BBBF /* Problem 9.swift in Sources */,
 				4E37C1A628C7BA35006E2BDC /* MovieDetailsVcMVVM.swift in Sources */,
 			);

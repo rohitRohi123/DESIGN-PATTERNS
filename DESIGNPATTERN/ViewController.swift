@@ -34,5 +34,10 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(movieListVc, animated: true)
     }
     
+    @IBAction func onClickedCleanButton(_ sender: Any) {
+        
+    }
+    
+    
 }
 
